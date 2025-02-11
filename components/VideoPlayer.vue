@@ -10,7 +10,7 @@
   ></iframe>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 type Props = {
   videoId: string;
 };
