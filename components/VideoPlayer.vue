@@ -12,7 +12,7 @@
 
 <script lang="ts" setup>
 type Props = {
-  videoId: string;
+  videoId: Number;
 };
 
 const props = defineProps<Props>();
