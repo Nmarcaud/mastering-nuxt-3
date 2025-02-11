@@ -52,9 +52,7 @@ useHead({
   title: computed(() => `${lesson.value.title} - ${chapter.value.title}`),
 })
 
-const progress = useState('progress', () => {
-  return [];
-});
+const progress = useLocalStorage('progress', []);
 
 const isLessonComplete = computed(() => {
   // Check if the chapter is complete

@@ -15,6 +15,7 @@
     {{ modelValue ? 'Completed!' : 'Mark as complete' }}
   </label>
 </template>
+
 <script setup>
 defineProps({
   modelValue: {
@@ -24,6 +25,7 @@ defineProps({
 });
 defineEmits(['update:modelValue']);
 </script>
+
 <style scoped>
 ::selection {
   display: none;
