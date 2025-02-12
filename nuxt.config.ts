@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt'],
 
-  nitro: {
-    preset: 'netlify'
-  },
+  // nitro: {
+  //   preset: 'netlify'
+  // },
 
   compatibilityDate: '2025-02-11'
 })
